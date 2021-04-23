@@ -95,14 +95,14 @@ button {
 #lives {
   color: rgb(230, 181, 46);
   font-family: 'VT323', monospace;
-  font-size: 35px;
+  font-size: 40px;
   margin: 0 80px 0 80px;
 }
 
 #score {
   color: rgb(230, 181, 46);
   font-family: 'VT323', monospace;
-  font-size: 35px;
+  font-size: 40px;
   margin: 0 80px 0 80px;
 }
 

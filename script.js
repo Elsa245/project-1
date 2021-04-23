@@ -16,7 +16,7 @@ let intervalId3 = 0
 let intervalId4 = 0
 //let intervalAmount = 2000
 scoreParagraph.innerHTML = `Score: ${score}`
-rulesParagraph.innerHTML = `Use your left and right arrows to move and the up arrow to shoot!`
+rulesParagraph.innerHTML = `Use &#8592;  &#8594; to move and '<em>S</em>' key to shoot!`
 livesParagraph.innerHTML = `Lives : ${lives}`
 let playerScores = []
 const scoresList = document.querySelector('ol')
@@ -257,7 +257,7 @@ document.addEventListener('keydown', (event) => {
     cells[laserBasePosition].classList.remove('laserBase')
     laserBasePosition += 1
     cells[laserBasePosition].classList.add('laserBase')
-  } else if (key === 'ArrowUp' && !cells[laser].classList.contains('laser')) {
+  } else if (key === 's' && !cells[laser].classList.contains('laser')) {
     laser = laserBasePosition - width
     cells[laser].classList.add('laser')
     audioPlayer.src = './sound/shoot.wav'
