@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  background-image: url('./images/background2.png');
+  /*background-repeat: no-repeat;*/
+  background-size: contain;
+  
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+img {
+  height: 80%;
+}
+
+div {
+  color: white;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid rgb(230, 181, 46);
+  border-radius: 5px;
+  width: 600px;
+  height: 600px;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20%;
+  height: 20%;
+  /*
+  border: 1px solid rgb(50, 218, 50);
+  */
+}
+
+.invader {
+  background-image: url('./images/aliens\ \(3\).png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bomb {
+  background-image: url('./images/bombs.png');
+  background-size: contain;
+}
+
+.laserBase {
+  background-image: url('./images/spaceship-spaceInvaders\ \(2\).png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.laser {
+  background-image: url('./images/laserSprite.png');
+  background-size: contain;
+}
+
+button {
+  margin: 20px;
+  font-family: 'VT323', monospace;
+  border-radius: 50%;
+  background: linear-gradient(rgb(197, 4, 4), rgb(230, 181, 46));
+  padding: 20px;
+  color: black;
+  
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+
+#rules {
+  color: rgb(230, 181, 46);
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+#lives {
+  color: rgb(230, 181, 46);
+  font-family: 'VT323', monospace;
+  font-size: 35px;
+  margin: 0 80px 0 80px;
+}
+
+#score {
+  color: rgb(230, 181, 46);
+  font-family: 'VT323', monospace;
+  font-size: 35px;
+  margin: 0 80px 0 80px;
+}
+
+#text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.scoreboard {
+  color: black;
+  border: 1px solid rgb(197, 4, 4);
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  background: linear-gradient(rgb(197, 4, 4), rgb(230, 181, 46));
+  /*background-color: rgb(230, 181, 46);
+  background-image: url('./images/background3.png');*/
+  background-size: contain;
+  margin-bottom: 30px;
+}
+
+/*.scoreboard h2 {
+  color: rgb(197, 4, 4)
+}*/
